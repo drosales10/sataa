@@ -8,8 +8,8 @@
 import { createClient } from '@supabase/supabase-js';
 import dotenv from 'dotenv';
 // import.meta.env is a Vite/browser-specific API and not needed in this Node script; use process.env via dotenv instead
-//const supabaseUrl = process.env.VITE_SUPABASE_URL || 'https://osuxekrrzchkguzhbmhr.supabase.co';
-//const supabaseAnonKey = process.env.VITE_SUPABASE_ANON_KEY || 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9zdXhla3JyemNoa2d1emhibWhyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjUyODY3NzksImV4cCI6MjA4MDg2Mjc3OX0.jLDrg-SeWx_Zr7U-8wAsumGTHhM6XxdS7GMAE40SdiI';
+//const supabaseUrl = process.env.VITE_SUPABASE_URL || '';
+//const supabaseAnonKey = process.env.VITE_SUPABASE_ANON_KEY || '';
 //const supabaseUrl = process.env.VITE_SUPABASE_URL || '';
 //const supabaseAnonKey = process.env.VITE_SUPABASE_ANON_KEY || '';
 //import.meta.env.VITE_SUPABASE_URL
