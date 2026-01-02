@@ -1,0 +1,52 @@
+{
+  "name": "SMyEG - Sistema de Monitoreo y Evaluación Geoespacial",
+  "short_name": "SMyEG",
+  "description": "Sistema de monitoreo y evaluación geoespacial para amenazas ambientales",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2E7D32",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://public-frontend-cos.metadl.com/mgx/img/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://public-frontend-cos.metadl.com/mgx/img/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["utilities", "productivity"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Mapa de Amenazas",
+      "short_name": "Mapa",
+      "description": "Ver mapa interactivo de amenazas",
+      "url": "/map",
+      "icons": [
+        {
+          "src": "https://public-frontend-cos.metadl.com/mgx/img/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Alertas",
+      "short_name": "Alertas",
+      "description": "Ver alertas tempranas",
+      "url": "/alerts",
+      "icons": [
+        {
+          "src": "https://public-frontend-cos.metadl.com/mgx/img/favicon.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
